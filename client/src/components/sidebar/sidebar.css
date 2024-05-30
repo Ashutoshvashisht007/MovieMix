@@ -1,0 +1,115 @@
+.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1;
+    background-color: black;
+    height: 100vh;
+    position: sticky;
+    padding: 20px;
+    top: 0;
+}
+
+.sidebarTop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
+.sidebarTopDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.sidebarTopLogo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.sidebarTopTitle{
+    color: #9ca3afb3;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.sidebarTopPrivate{
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #6b728033;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidebarTopPrivate:hover{
+    background-color: #3b82f633;
+    border: 2px solid rgba(37,99,235,1);
+}
+
+.sidebarTopPublic{
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #6b728033;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidebarTopPublic:hover{
+    background-color: #3b82f633;
+    border: 2px solid rgba(37,99,235,1);
+}
+
+.sidebarBottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.sidebarBottomLogin{
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+    border: 2px solid #dbeafe1a;
+    border-radius: .75rem;
+    color: white;
+    background-color: rgba(17, 24, 39, 1);
+    cursor: pointer;
+}
+
+.sidebarBottomLogin:hover{
+    background-color: #a4b5d133;
+}
+
+.sidebarBottomSignup{
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+    border: 2px solid #dbeafe1a;
+    border-radius: .75rem;
+    color: white;
+    background-color: rgba(17, 24, 39, 1);
+    cursor: pointer;
+}
+
+.sidebarBottomSignup:hover{
+    background-color: #a4b5d133;
+}

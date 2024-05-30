@@ -1,0 +1,45 @@
+.movieCard{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.movieCardDiv {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin: 16px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .movieCardImg {
+    width: 100%;
+    display: block;
+  }
+  
+  .movieCardDesc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0; 
+    transform: translateY(100%); 
+  }
+  
+  .movieCardDiv:hover .movieCardDesc {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .movieCardTitle, .movieCardType, .movieCardYear {
+    display: block;
+  }

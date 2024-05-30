@@ -1,0 +1,26 @@
+.home{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12rem;
+    background: linear-gradient(90deg, rgba(217,70,239,1) 29%, rgba(6,182,212,1) 100%);
+}
+
+.homeSearchInput{
+    padding: 0.80rem;
+    border-radius: 0.75rem;
+    width: 70%;
+    border: none;
+    outline: none;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-weight: 400;
+    font-size: 16px;
+}
