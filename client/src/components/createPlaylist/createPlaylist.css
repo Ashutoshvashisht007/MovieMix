@@ -1,0 +1,130 @@
+.createPlaylist {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createPlaylistWrapper {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.createPlaylistClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.createPlaylistTitle {
+    text-align: center;
+}
+
+.createPlaylistbtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.createPlaylistAdd {
+    padding: 10px 15px;
+    background-color: gray;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+.createPlaylistAdd:hover {
+    border: 2px solid rgb(62, 76, 76);
+}
+
+.createPlaylistDynamic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.createPlaylistExisting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.createPlaylistExistingSpan {
+    background-color: #3b82f633;
+    border: 2px solid rgba(37, 99, 235, 1);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.createPlaylistNew{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.createPlaylistNewText{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 70%;
+}
+
+.createPlaylistNewLable{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.createPlaylistNewDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.createPlaylistSubmit {
+    padding: 10px 15px;
+    background-color: gray;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    
+}
+
+.createPlaylistSubmit:hover {
+    border: 2px solid rgb(62, 76, 76);
+}

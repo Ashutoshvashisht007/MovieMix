@@ -30,20 +30,19 @@ const Movie = () => {
     return (
         <div className="movie">
             <div className="movieWrapper">
-                <div>
-                    <img src={movie?.Poster} alt={movie?.Title} />
-                    <span>{movie?.Title}</span>
+                <div className="movieWrapperImgDiv">
+                    <img className="movieWrapperImage" src={movie?.Poster} alt={movie?.Title} />
+                    <span className="movieWrapperTitle">{movie?.Title}</span>
                 </div>
-                <div>
-                    <span>
+                <div className="movieWrapperDesc">
+                    <span className="movieWrapperDescPlot">
                         {
                             movie?.Plot
                         }
                     </span>
-                    <span>{movie?.Released}</span>
-                    <span>{movie?.Genre}</span>
-                    <span>{movie?.imdbRating}</span>
-                    <span>{movie?.imdbRating}</span>
+                    <span className="movieWrapperDescReleased">Release Date: {movie?.Released}</span>
+                    <span className="movieWrapperDescGenre">{movie?.Genre}</span>
+                    <span className="movieWrapperDescRating">IMDB Rating: {movie?.imdbRating}</span>
                 </div>
             </div>
         </div>

@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react";
+
 export type Search = {
     Title: string;
     Year: string;
@@ -12,6 +14,10 @@ export type apiResponse = {
 
 export type MovieCardProps = {
     movies: apiResponse | null;
+}
+
+export type createPlaylistProp = {
+    setIsOpen: Dispatch<SetStateAction<boolean>>;
 }
 
 export type imdbResponse = {
